@@ -1,1 +1,26 @@
 @import '~antd/dist/antd.css';
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    border-bottom:1px solid gray;
+    padding-left:20px;
+    text-align: center;
+}
+
+footer{
+    border-top:1px solid gray;
+    padding:20px;
+    text-align: center;
+}
+
+.content {
+    padding: 50px;
+}
+
+.todo-form {
+    padding: 20px;
+}
