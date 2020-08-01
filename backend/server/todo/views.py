@@ -14,10 +14,6 @@ class TodoViewSet(viewsets.ModelViewSet):
     serializer_class = TodoSerializer
     http_method_names = ['get', 'post', 'put', 'delete', 'options']
 
-    @transaction.atomic
-    def delete(self, request, *args, **kwargs):
-        return super().destroy(request, args, kwargs)
-
     @action(methods=['PUT'],
             url_path='status',
             detail=True,
