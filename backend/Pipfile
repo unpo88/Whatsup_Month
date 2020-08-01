@@ -12,6 +12,7 @@ djangorestframework = "*"
 markdown = "*"
 django-filter = "*"
 mysqlclient = "*"
+yapf = "*"
 
 [requires]
 python_version = "3.7"
