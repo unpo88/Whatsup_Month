@@ -8,7 +8,6 @@ router = routers.SimpleRouter()
 # Todo
 router.register(r'todo', TodoViewSet, basename='todo')
 
-
 urlpatterns = [
     # Router
     path('api/', include(router.urls)),
